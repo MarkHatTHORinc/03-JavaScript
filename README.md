@@ -2,19 +2,17 @@
 
 ## Description
 
-This project was to take existing code for the Horiseon webpage and refactor it. Horiseon is a marketing agency wanted to make their existing site more accessible while at the same time enhancing the site for branding. This optimization will also ensure that the webpage is optimized for search engines.
+This project was to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. The app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
 ```md
-The goal for the webpage is to meet accessibility standards. The source code should:
-1. Consist of semantic HTML elements
-2. Include elements which follow a logical structure independent of styling and positioning
-3. Contain image tags with accessible alt attributes
-4. Ensure heading attributes fall in sequential order
-5. Have a concise, descriptive title
+The goal for the webpage is to allow the user to generate a random password based upon criteria below that the user can select:
+1. Length of password.
+2. Allow lowercase characters.
+3. Allow uppercase characters.
+4. Allow special characters.
+5. User must allow for at least one of critera 2-4.
 ```
 ## Table of Contents
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -42,10 +40,10 @@ The following steps should be used to install:
 ## Usage 
 
 Navigate to:
-[https://markhatthorinc.github.io/01-HTML-Git-CSS-Homework/](https://markhatthorinc.github.io/01-HTML-Git-CSS-Homework/)
+[https://markhatthorinc.github.io/03-JavaScript/](https://markhatthorinc.github.io/03-JavaScript/)
 
 **Image of Site:**
-![Horiseon Marketing Page](./assets/images/HoriseonSocialSoutionService.png)
+![Password Generator](./assets/images/PasswordGenerator.png)
 
 
 ## Credits
@@ -79,8 +77,8 @@ SOFTWARE.
 
 ## Badges
 
-![badgeGT](https://img.shields.io/static/v1?label=%3CGT%20Bootcamp%3E&message=01-HTML-Git-CSS&color=blue)
-![badgeCourse](https://img.shields.io/static/v1?label=%3CCourse%20Work%3E&message=02-Homework&color=blue)
+![badgeGT](https://img.shields.io/static/v1?label=%3CGT%20Bootcamp%3E&message=03-JavaScript&color=blue)
+![badgeCourse](https://img.shields.io/static/v1?label=%3CCourse%20Work%3E&message=03-Homework&color=blue)
 
 ## Features
 
@@ -93,12 +91,17 @@ There are no special features on this page.
 
 ```md
 Verify links work:
-1. Click on _Search Engine Optimization_
-    * Page should positon to Search Engine Optimzation section
-2. Click on _Online Reputation Management_
-    * Page should positon to Online Reputation Management section
-3. Click on _Social Media Marketing_
-    * Page should position to Social Media Marketing section
+1. Click on _Generate Password Button_
+2. You should be prompted for a password length
+    * Application should only accept values between 8 and 128
+3. You should be prompted whether to allow for lowercase
+    * Application should only accept any case sensitivity for: y, yes, n, or no
+4. You should be prompted whether to all for uppercase
+    * Application should only accept any case sensitivity for: y, yes, n, or no
+5. You should be prompted whether to all for special characters
+    * Application should only accept any case sensitivity for: y, yes, n, or no
+6. You must have selected at least one to allow for lowercase, uppercase, or special characters
+7. A random generated password should be displayed in the HTML box
 ```
 
 ```md
