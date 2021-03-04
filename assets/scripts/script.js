@@ -74,8 +74,8 @@ function generatePassword() {
   for (var i = 0; i < passwordLength; i++) {
     password += charactersAllowed.charAt(Math.floor(Math.random() * charactersAllowedLength));
   }
-  console.log(charactersAllowed);
-  console.log(password);
+  // console.log(charactersAllowed);
+  // console.log(password);
   return password;
 }
 
